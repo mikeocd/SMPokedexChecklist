@@ -1,6 +1,6 @@
 # Pokemon Sun and Moon Pokedex Chestlist
 
-To view the cheat sheet [click here](http://mikeocd.github.io/SMPokedexChecklist/).
+To view the checklist [click here](http://mikeocd.github.io/SMPokedexChecklist/).
 
 The code base for this checklist is taken from [Zachary Kjellberg](https://github.com/ZKjellberg)'s [excellent Dark Souls 3 check sheet](https://github.com/ZKjellberg/dark-souls-3-cheat-sheet). This, in turn, was created by adopting the source code from [Dark Souls 2 Cheat Sheet](https://github.com/smcnabb/dark-souls-2-cheat-sheet/tree/gh-pages) created by [Stephen McNabb](https://github.com/smcnabb). All credit for the way the guide looks and functions should really go to them.
 
