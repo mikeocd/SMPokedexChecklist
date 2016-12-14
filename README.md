@@ -1,4 +1,4 @@
-# Pokemon Sun and Moon Pokedex Chestlist
+# Pokemon Sun and Moon Pokedex Checklist
 
 To view the checklist [click here](http://mikeocd.github.io/SMPokedexChecklist/).
 
