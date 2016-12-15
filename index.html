@@ -33,7 +33,7 @@
       <div class="collapse navbar-collapse" id="nav-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#tabPlaythrough" data-toggle="tab">Pokemon</a></li>
-		 <li><a href="#tabZygarde" data-toggle="tab">Weapons/Shields</a></li>
+		 <li><a href="#tabZygarde" data-toggle="tab">Zygarde</a></li>
     		  <li><a href="#tabFAQ" data-toggle="tab"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></li>
     		  <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span></a></li>
         </ul><!-- /.nav.navbar-nav -->
@@ -432,9 +432,9 @@
 		<li data-id="playthrough_6_51" class="f_legendary"><b>Magearna</b> (Scan event QR code)</li>
 		<li data-id="playthrough_6_52" class="f_legendary"><b>Marshadow</b> (Unobtainable at present)</li>
         </ul>
-
+	
       </div>
-	      
+</div>      
  <!-- ZYGARDE START -->
     <div class="tab-pane" id="tabZygarde">
 	     <h2>Zygarde Cells and Cores <span id="zygarde_overall_total"></span></h2>
@@ -451,35 +451,58 @@
         </div>	    
 	    
  	<div id="zygarde_list">
-          	<h3 id="Cores">Cores <span id="zygarde_nav_totals_1"></span></h3>
-          		<ul>
-            			<li data-id="zygarde_1_1">Route 1, in your bedroom</li>
-            			<li data-id="zygarde_1_2">Iki Town, on balcony of large building in NW</li>
-				<li data-id="zygarde_1_3">Konikoni City, in Olivia's room, upstairs in her shop</li>
-				<li data-id="zygarde_1_4">Route 17, in disused police station full of Meowth</li>
-				<li data-id="zygarde_1_5">Ancient Poni Path, in the farmhouse</li>
-          		</ul>
+          	<h3 id="Cores"><a href="#cores_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Cores <span id="zygarde_totals_1"></span></h3>
+          	<ul id="cores_col" class="collapse in">
+		<ul>
+            		<li data-id="zygarde_1_1">Route 1, in your bedroom</li>
+            		<li data-id="zygarde_1_2">Iki Town, on balcony of large building in NW</li>
+			<li data-id="zygarde_1_3">Konikoni City, in Olivia's room, upstairs in her shop</li>
+			<li data-id="zygarde_1_4">Route 17, in disused police station full of Meowth</li>
+			<li data-id="zygarde_1_5">Ancient Poni Path, in the farmhouse</li>
+          	</ul>
 
-        	<h3 id="Melemele_cells">Melemele Island Cells <span id="zygarde_nav_totals_2"></span></h3>
-			<ul>
-            			<li data-id="zygarde_2_1">Route 1: Northwest between cliff and grass (Day)</li>
-            			<li data-id="zygarde_2_2">Route 1: in area south accessibly by Tauros Charge south of Iki town. Go down the hill and It's under a tree. (Day)</li>
-            			<li data-id="zygarde_2_3">Route 1: next to Kukui's house</li>
-            			<li data-id="zygarde_2_4">Route 1: Trainer school, on cushion (Night)</li>
-            			<li data-id="zygarde_2_5">Route 2: on the west side of the Motel</li>
-            			<li data-id="zygarde_2_6">Route 3: Nestled next to cliff towards east side of route (Day)</li>
-            			<li data-id="zygarde_2_7">Route 3: Follow the route until you cross the bridge, go down the hill and it's under a tree.</li>
-            			<li data-id="zygarde_2_8">Hau'oli Cemetary: West side, in front of bush</li>
-            			<li data-id="zygarde_2_9">Hau'oli City: Shopping district, upper floor of Ilima's house</li>
-            			<li data-id="zygarde_2_10">Hau'oli City: Next to Pokemon Centre entrance (Night)</li>
-				<li data-id="zygarde_2_11">Iki Town: Behind man stood to the right-hand side of the path leading to the Ruins of Conflict (Night)</li>
-            			<li data-id="zygarde_2_12">Route 1, Northwest between cliff and grass</li>
-            			<li data-id="zygarde_2_13">Kala'e bay: Follow the cliff to the mouth of the river. It's on the north side</li>
-            			<li data-id="zygarde_2_14">Ruins of Conflict: right of the entrance to Tapu's den</li>
-            			<li data-id="zygarde_2_15">Verdant Cavern: Next to one of the Yungoos nests from the trial</li>
-			</ul>
-	</div>  
-    </div>
+        	<h3 id="Melemele_cells"><a href="#melemele_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Melemele Island Cells <span id="zygarde_totals_2"></span></h3>
+		<ul id="melemele_col" class="collapse in">
+		<ul>
+            		<li data-id="zygarde_2_1">Route 1: Northwest between cliff and grass (Day)</li>
+            		<li data-id="zygarde_2_2">Route 1: in area south accessibly by Tauros Charge south of Iki town. Go down the hill and It's under a tree. (Day)</li>
+            		<li data-id="zygarde_2_3">Route 1: next to Kukui's house</li>
+            		<li data-id="zygarde_2_4">Route 1: Trainer school, on cushion (Night)</li>
+            		<li data-id="zygarde_2_5">Route 2: on the west side of the Motel</li>
+            		<li data-id="zygarde_2_6">Route 3: Nestled next to cliff towards east side of route (Day)</li>
+            		<li data-id="zygarde_2_7">Route 3: Follow the route until you cross the bridge, go down the hill and it's under a tree.</li>
+            		<li data-id="zygarde_2_8">Hau'oli Cemetary: West side, in front of bush</li>
+            		<li data-id="zygarde_2_9">Hau'oli City: Shopping district, upper floor of Ilima's house</li>
+            		<li data-id="zygarde_2_10">Hau'oli City: Next to Pokemon Centre entrance (Night)</li>
+			<li data-id="zygarde_2_11">Iki Town: Behind man stood to the right-hand side of the path leading to the Ruins of Conflict (Night)</li>
+            		<li data-id="zygarde_2_12">Route 1, Northwest between cliff and grass</li>
+            		<li data-id="zygarde_2_13">Kala'e bay: Follow the cliff to the mouth of the river. It's on the north side</li>
+            		<li data-id="zygarde_2_14">Ruins of Conflict: right of the entrance to Tapu's den</li>
+            		<li data-id="zygarde_2_15">Verdant Cavern: Next to one of the Yungoos nests from the trial</li>
+		</ul>
+				
+        	<h3 id="Akala_cells"><a href="#akala_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Melemele Island Cells <span id="zygarde_totals_2"></span></h3>
+		<ul id="akala_col" class="collapse in">
+			<li data-id="zygarde_3_1">Route 1: Northwest between cliff and grass (Day)</li>
+		</ul>
+
+        	<h3 id="Ula_cells"><a href="#ula_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Melemele Island Cells <span id="zygarde_totals_2"></span></h3>
+		<ul id="ula_col" class="collapse in">
+			<li data-id="zygarde_4_1">Route 1: Northwest between cliff and grass (Day)</li>
+		</ul>			
+		
+        	<h3 id="Poni_cells"><a href="#poni_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Melemele Island Cells <span id="zygarde_totals_2"></span></h3>
+		<ul id="poni_col" class="collapse in">
+			<li data-id="zygarde_5_1">Route 1: Northwest between cliff and grass (Day)</li>
+		</ul>			
+
+        	<h3 id="Aether_cells"><a href="#aether_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a>Melemele Island Cells <span id="zygarde_totals_2"></span></h3>
+		<ul id="aether_col" class="collapse in">
+			<li data-id="zygarde_6_1">Route 1: Northwest between cliff and grass (Day)</li>
+		</ul>			
+			
+ 	   </div>
+	</div>
 
       <div class="tab-pane" id="tabFAQ">
 	     <h2>FAQ</h2>
