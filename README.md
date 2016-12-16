@@ -8,7 +8,7 @@ Information for the Pokedex was taken from the games, Serebii, Bulbapedia and th
 
 Problems? You can follow me on Twitter on [@mikeocd](https://twitter.com/mikeocd); tweeting me is by far the quickest way to reach me.
 
-# TODO
+## TO DO
 
 - [ ] Add list of TMs
 - [ ] Add list of held items / etc that can be found in the overworld, i.e. Eviolite
